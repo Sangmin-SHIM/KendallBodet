@@ -1,0 +1,40 @@
+:root {
+    /* Her favorite colors
+        - 1) Vert émeraude : #01D758
+        - 2) Rouge bordeaux : #541412
+
+       Coleur automnal
+       - 1) fall_1 : #F3A93E
+       - 2) fall_2 : #E65830
+       - 3) fall_3 : #99271D
+       - 4) fall_4 : #643D36
+       - 5) fall_5 : #AB8673
+    */
+
+    /* Color */
+    --primary-color : #0a1118;
+    --primary-color-highligt : #233D54;
+    --bs-body-bg : #FBF0F6;
+
+    --fall_1 : #F3A93E;
+    --fall_2 : #E65830;
+    --fall_3 : #99271D;
+    --fall_4 : #643D36;
+    --fall_5 : #AB8673;
+
+    --rouge_bordeaux : #541412;
+
+    /* Font */
+    --bs-body-font-family :'IBM Plex Serif', serif;
+}
+
+
+/* Header */
+.header{
+    z-index: 2;
+    background-color: var(--fall_1);
+}
+
+.logo{
+    width: 40%;
+}
