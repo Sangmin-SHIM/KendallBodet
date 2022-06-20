@@ -1,3 +1,5 @@
+@import "../utils/responsive.css";
+
 :root {
     /* Her favorite colors
         - 1) Vert émeraude : #01D758
@@ -28,13 +30,42 @@
     --bs-body-font-family :'IBM Plex Serif', serif;
 }
 
+a { color : var (--primary-color); }
+a:hover { color : var (var(--primary-color-highligt)); }
 
-/* Header */
+/* 
+* Header 
+*/
 .header{
     z-index: 2;
-    background-color: var(--fall_1);
 }
 
 .logo{
-    width: 40%;
+    width: 30%;
+}
+
+
+/* 
+* Navbar 
+*/
+#navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--rouge_bordeaux);
+    z-index: 4;
+}
+
+.dropdown-nav__closeNatBtn{
+    position: absolute;
+    top : 25px;
+    right: 55px;
+    background-color: rgba(255, 255,255, 0);
+}
+
+.dropdown-nav__container{
+    height: 100vh;
+    padding: 0 1rem;
 }
