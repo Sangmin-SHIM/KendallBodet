@@ -40,7 +40,7 @@ a:hover { color : var (var(--primary-color-highligt)); }
 */
 .container-custom{
     width:100%;
-    padding:0 1rem;
+    padding:0 3rem;
     margin: 0 auto;
 }
 
@@ -154,4 +154,36 @@ a:hover { color : var (var(--primary-color-highligt)); }
     to {
         transform : translateY(-10px);
     }
+}
+
+/* 
+* Steps 
+*/
+
+.steps{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.steps__section-thumbnail{
+    height: 80vh;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.steps__content-width{
+    max-width: 456px;
+    margin: 0 auto;
+}
+
+.steps--background{
+    background-color: #fef8f9;
+}
+
+/* 
+* Section 4 cols
+*/
+
+.section_4_cols{
+    padding-top:40px;
 }
