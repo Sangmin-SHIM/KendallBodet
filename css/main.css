@@ -187,3 +187,18 @@ a:hover { color : var (var(--primary-color-highligt)); }
 .section_4_cols{
     padding-top:40px;
 }
+
+/* 
+* Footer
+*/
+
+.footer{
+    margin:auto;
+
+}
+
+.footer .border-highlight {
+    border-top: 1px solid var(--primary-color-highligt);
+    width:95%;
+    margin:auto;
+}
