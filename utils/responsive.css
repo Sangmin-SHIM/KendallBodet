@@ -1,4 +1,24 @@
+@media only screen and (min-width: 1600px) {
+  /* 
+  * Custom Container
+  */
+  .container-custom{
+    width:1540px;
+  }
+}
 
+@media only screen and (min-width: 1400px) {
+    /* 
+    * Custom Container
+    */
+    .container-custom{
+      width:1340px;
+    }
+    
+    .hero__heading{
+     font-size : 3.2rem; 
+    }
+}
 @media only screen and (min-width: 1280px) {
     /* For wide screens: */
     .xLarge-1 {
@@ -37,10 +57,17 @@
     .xLarge-12 {
       width: 100%;
     }
+
+    /* 
+    * Custom Container
+    */
+    .container-custom{
+      width:1140px;
+    }
   
   }
   
-  @media only screen and (min-width: 980px) and (max-width: 1279px) {
+  @media only screen and (min-width: 770px) and (max-width: 1279px) {
     /* For desktop: */
     .large-1 {
       width: 8.33%;
@@ -84,11 +111,15 @@
       top : 16px !important;
       right: 38px !important;
       background-color: rgba(255, 255,255, 0);
-  }
+    }
+
+    .logo{
+      width:70% !important;
+    }
 
   }
   
-  @media only screen and (min-width: 520px) and (max-width: 979px) {
+  @media only screen and (min-width: 520px) and (max-width: 769px) {
     /* For tablets: */
     .medium-1 {
       width: 8.33%;
@@ -133,7 +164,6 @@
       right: 57px !important;
       background-color: rgba(255, 255,255, 0);
     }
-
 
   }
   
