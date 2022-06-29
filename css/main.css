@@ -32,8 +32,9 @@
 
 html {scroll-behavior: smooth;}
 
-a { color : var (--primary-color); }
+a { color : var (var(--primary-color)); }
 a:hover { color : var (var(--primary-color-highligt)); }
+
 
 /* 
 * Custom Container
@@ -67,7 +68,7 @@ a:hover { color : var (var(--primary-color-highligt)); }
     left:0;
     right: 0;
     bottom: 0;
-    background-color: var(--rouge_bordeaux);
+    background-color: var(--bs-body-bg);
     z-index: 4;
 }
 
@@ -81,6 +82,10 @@ a:hover { color : var (var(--primary-color-highligt)); }
 .dropdown-nav__container{
     height: 100vh;
     padding: 0 1rem;
+}
+
+.bi-x{
+    color : var(--primary-color)
 }
 
 /* 
@@ -180,6 +185,9 @@ a:hover { color : var (var(--primary-color-highligt)); }
     background-color: #fef8f9;
 }
 
+.next{
+    text-align: center;
+}
 /* 
 * Section 4 cols
 */
